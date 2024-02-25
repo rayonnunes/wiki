@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "601bb0484b9b1504",
+    "type": "split",
+    "children": [
+      {
+        "id": "a00e145a2d3c71e6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a2b6a2b0775f4e0c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/React Native/React Native Web.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8730213001e0f93b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dbd34080aa52d5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "27d1bead1c54eac9",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "byCreatedTime"
+              }
+            }
+          },
+          {
+            "id": "804e4f2b3895d843",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "997cf325828dd4b4",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 421.5
+  },
+  "right": {
+    "id": "b0560eb20716e1fd",
+    "type": "split",
+    "children": [
+      {
+        "id": "4d9b805df8130977",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "cf7ef0b96d2e7b6f",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Estudos/React Native/React Native Web.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "299667684914b744",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Estudos/React Native/React Native Web.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "7c00783c9285907a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b3bbdbe5f0aac008",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Estudos/React Native/React Native Web.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 304.5,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "804e4f2b3895d843",
+  "lastOpenFiles": [
+    "2024-02-25.md",
+    "Estudos/React Native/React Native Web.md",
+    "Estudos/React Native/React Native.md",
+    "Estudos/React Native/Questões Entrevista.md",
+    "Estudos/Testing JavaScript.md",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/2-jest-styled-components-output.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/17-cypress_report.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/18-cypress_debug.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/16-cypress_spec_template.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/15-cypress_start_page.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/14-cypress_browser_selector.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/13-cypress_config_page.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/12-cypress_welcome_page.png",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/11-jest-output-toHaveAttribute.png",
+    "Estudos/JavaScript.md",
+    "Estudos/React Native",
+    "A.md",
+    "Estudos/Testing.md",
+    "Testing.md",
+    "Render a React component for testing.md",
+    "FavoriteNumber.md",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/10-jest-output-null-querySelector.png",
+    "previous calculator display using styled-components.md",
+    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/Teste",
+    "Estudos/Sem título.canvas"
+  ]
+}

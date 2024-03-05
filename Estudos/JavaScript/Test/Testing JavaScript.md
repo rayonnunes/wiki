@@ -1,3 +1,4 @@
+Notes from [Testing JavaScript by Kent C. Dodds](https://www.testingjavascript.com/) course
 
 # ⚒️ Requirements
 
@@ -1211,7 +1212,7 @@ test('CalculatorDisplay renders', () => {
 
 But, for example, if you change your `font-size` to `8rem`, jest will generate another snapshot that will break your tests, which is fine but the only debug jest will present will be another encoded class name
 
-![1-jest-output-class-name.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/1-jest-output-class-name.png)
+![1-jest-output-class-name.png](img/img/1-jest-output-class-name.png)
 >Log output from jest showing the difference between the snapshot (**class="sc-bdfCDU cJFxBv”)** and received (**class="sc-bdfCDU kYXyTR”)**
 
 As you can see this can make it hard to keep track of what was changed, a better way to create those snapshots is using [jest-styled-components](https://github.com/styled-components/jest-styled-components) that will register your CSS at the top of your component and serialize it:
@@ -1258,7 +1259,7 @@ npm i jest-styled-components -D
 
 Now, when a change occurs, jest will be able to give much better information about what was changed
 
-![2-jest-styled-components-output.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/2-jest-styled-components-output.png)
+![2-jest-styled-components-output.png](img/img/2-jest-styled-components-output.png)
 >Log output from jest using jest-styled-components, now is possible to have the exact information about what was changed
 
 To make the serialization easier, instead of `import 'jest-styled-components'` in every file, you can add to your `jest.config.js`
@@ -1344,7 +1345,7 @@ export { render }
 
 Now when you run the same test but with `render` from our `render-utils.js` you will notice that the snapshot test will fail because of the properties `color` and `background` are now present
 
-![3-jest-output-custom-render.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/3-jest-output-custom-render.png)
+![3-jest-output-custom-render.png](img/3-jest-output-custom-render.png)
 >properties defined by theme are now present on test render
 
 To expose some customization to your wrapper, you can inject additional properties in the options
@@ -1520,10 +1521,10 @@ This will both output a table in your terminal and generate a `coverage` folder 
 
 
 Here's an example of how an coverage report looks like:
-![Code coverage on Terminal](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/4-cli-coverage-report.png)
+![Code coverage on Terminal](4-cli-coverage-report.png)
 >Note that even though all test are passing, are some indications about what is being tested or not.
 
-![Coverage Report on UI](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/5-ui-coverage-report.png)
+![Coverage Report on UI](5-ui-coverage-report.png)
 >Here's a UI view inside browser in `coverage/lcov-report/index.html`. You can navigate through the links to check individual files from each folder
 
 Note that checking coverage report for some folders is not always necessary, as example of `test` because it contains tools that will be used several times, showing 100% coverage for it, misleading up the percentage of your overall coverage. Also there are some files that is not being included, such as `app.js`, `index.js`. so to give more clarification, lets add the following line to `jest.config.js`
@@ -1536,7 +1537,7 @@ module.exports = {
 ```
 This will check only files inside src (ignoring `test`) and ending with .js. Jest will ignore `__test__` folder and `*.(test|spec).js` files by default
 
-![CoverageFrom update report](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/6-collectCoverageFrom-update-report-.png)
+![CoverageFrom update report](6-collectCoverageFrom-update-report-.png)
 >Note that `test` folder is not being checked anymore, and some files inside `src` are now included.
 
 Remember also to include `coverage` folder into your `.gitignore` file to avoid committing it.
@@ -1818,7 +1819,7 @@ with it is possible to run tests in watch mode and have a new option
 `› Press P to select projects (all selected).`
 
 Pressing "capital P" you will be prompted with:
-![jest-watch-select-projects-prompt.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/7-jest-watch-select-projects-prompt.png)
+![jest-watch-select-projects-prompt.png](img/7-jest-watch-select-projects-prompt.png)
 and you can re run only tests relevant to your current work
 
 ## 🪬 Filter which Tests are Run with Typeahead Support in Jest Watch Mode
@@ -1842,11 +1843,11 @@ module.exports = {
 ```
 
 Now running jest in watch mode and pressing "t" or "p", you will have:
-![8-jest-watch-typeahead-test-empty.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/8-jest-watch-typeahead-test-empty.png)
+![8-jest-watch-typeahead-test-empty.png](img/8-jest-watch-typeahead-test-empty.png)
 >Note the *Start typing to filter by a test name regex pattern.* that didn't exist before
 
 As you type something, it will be displayed the matches, and you can navigate through them with arrow keys:
-![9-jest-watch-typeahead-test-match.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/9-jest-watch-typeahead-test-match.png)
+![9-jest-watch-typeahead-test-match.png](img/9-jest-watch-typeahead-test-match.png)
 
 ## 🛸 Run Only Relevant Jest Tests on Git Commit to Avoid Breakages
 
@@ -1948,7 +1949,7 @@ expect(div.querySelector('input').type).toBe('number')
 ```
 
 The output will be:
-![10-jest-output-null-querySelector.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/10-jest-output-null-querySelector.png)
+![10-jest-output-null-querySelector.png](img/10-jest-output-null-querySelector.png)
 Note that will only show a generic error saying: `TypeError: Cannot read properties of null (reading 'type')`
 
 But the same typo error with `toHaveAttribute` assertion
@@ -1957,7 +1958,7 @@ expect(div.querySelector('nput')).toHaveAttribute('type', 'number')
 ```
 
 Will output the following error message:
-![11-jest-output-toHaveAttribute.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/11-jest-output-toHaveAttribute.png)
+![11-jest-output-toHaveAttribute.png](img/11-jest-output-toHaveAttribute.png)
 This output `received value must be an HTMLElement or an SVGElement. Received has value: null` gives you a slightly better clue about what is going on.
 
 A common situation that may happen when handling inputs is break the connection between an input `id` and its label bounded by `htmlFor` or `aria-labelledby` this is usually not covered by tests. So an abstraction to test this kind of accessibility is using `queries` from `@testing-library/dom`
@@ -3587,10 +3588,10 @@ To open Cypress UI dev tools access the binary at `node_modules/.bin`:
 > ```
 
 The first page will be prompted with two options: [E2E Testing](https://docs.cypress.io/guides/end-to-end-testing/writing-your-first-end-to-end-test) and [Component Testing](https://docs.cypress.io/guides/component-testing/overview) we will look for now at E2E tests only
-![12-cypress_welcome_page.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/12-cypress_welcome_page.png)
+![12-cypress_welcome_page.png](img/12-cypress_welcome_page.png)
 
 Clicking on **E2E Testing** will automatically pop up a wizard to setup your cypress environment for the first time, creating a config, additional support, and  custom commands files, as well as an example file
-![13-cypress_config_page.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/13-cypress_config_page.png)
+![13-cypress_config_page.png](img/13-cypress_config_page.png)
 After clicking "Continue", a `cypress` folder will be created at the top level of the repository, there it is possible to find multiple folders:
 - e2e: Here is where the test files will be placed. Cypress automatically detects the test files with the extension `cy.(js|ts|jsx|tsx|coffee|cjsx)` inside it 
 - fixtures: pieces of static data (e.g.: json) that can be used by your tests. typically used with `cy.fixture()` when stubbing network requests
@@ -3614,10 +3615,10 @@ After clicking "Continue", a `cypress` folder will be created at the top level o
   
 
 After this step you will be required to choose a browser to navigate through your tests. the list will correspond the browsers you have installed in your machine, except for specific cases that you want to check the behavior in a specific browser, it's recommended to use Electron for a minimal browser environment.
-![14-cypress_browser_selector.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/14-cypress_browser_selector.png))
+![14-cypress_browser_selector.png](img/14-cypress_browser_selector.png))
 Then it's possible to play around with multiple examples auto generated by cypress or create a new empty test file. Let's start creating a new spec named `cypress/e2e/my_first_test.cy.js`.
 
-![15-cypress_start_page.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/15-cypress_start_page.png)
+![15-cypress_start_page.png](img/15-cypress_start_page.png)
 ## Writing a test
 
 Cypress will then create a template for your test:
@@ -3630,9 +3631,9 @@ describe('template spec', () => {
 ```
 
 And you can test if everything is working well by clicking in "Okay, run the spec"
-![16-cypress_spec_template.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/16-cypress_spec_template.png)
+![16-cypress_spec_template.png](img/16-cypress_spec_template.png)
 After some seconds, cypress will run the test files and will display the report
-![17-cypress_report.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/17-cypress_report.png)
+![17-cypress_report.png](img/17-cypress_report.png)
 You will notice that cypress contains a whole browser inside it and a very powerful and helpful tool is that "aim" icon at the left of the url. This tool can retrieve queries from the selected element, for example, clicking on it and selecting the documentation for **[get](https://example.cypress.io/commands/querying)** will show the exact command to query it:
 ```js
 cy.get(':nth-child(4) > .row > .col-xs-12 > .home-list > :nth-child(1) > ul > :nth-child(1) > a')
@@ -3754,17 +3755,228 @@ cy.findByText("get")
 ```
 There is a debugger statement that will pause your test run and log some useful information like `subject` that is a JQuery object containing information about the node in the context.
 
-![18-cypress_debug.png](Testing%20JavaScript%20a47d046ff7444190bcb90e0a7d81b5f8/18-cypress_debug.png)
+![18-cypress_debug.png](img/18-cypress_debug.png)
 
 Alternatively you can achieve the same result using `.debug()` to pause and log details of the test, or just `.pause()` that is self explanatory.
 
 ## Testing forms with fake data
-# 📚 References
 
-1. [Testing JavaScript with Kent C. Dodds](https://testingjavascript.com/)
-2. [Mock Functions](https://jestjs.io/docs/mock-functions)
-3. [Jest Object (jest.spyOn)](https://jestjs.io/docs/jest-object#jestspyonobject-methodname)
-4. [ESLint](https://eslint.org/)
-5. [Prettier](https://prettier.io/)
-6. [TypeScript](https://www.typescriptlang.org/)
-7. [Husky](https://typicode.github.io/husky/)
+To create fake data to use in scenarios that is not desirable to have the same information twice, such as choosing an username/email it is possible to use [faker](https://github.com/faker-js/faker) package. It provides some utils to create the information you want  
+
+### 📦 Install
+```shell
+npm i --save-dev @faker-js/faker
+```
+
+### 🎛️ Usage
+
+You can create a file (e.g.: `generate.js`) in `support` folder to provide a `fakeUser` object such as:
+```js
+import { faker } from "@faker-js/faker";
+
+export const fakeUser = {
+  email: faker.internet.email(),
+  password: faker.internet.password({ length: 12 }),
+};
+```
+
+Then you can have the following test assertion with some manipulations:
+```js
+it("fills email and password input", () => {
+    cy.visit("/commands/actions");
+
+    cy.findByLabelText(/email address/i).type(fakeUser.email);
+
+    cy.findByLabelText(/email address/i)
+      .should("have.value", fakeUser.email)
+      // just calling match will check if the subject (jQuery element) is an input
+      .should("match", "input")
+      // to check if the input value matches a regex, first use invoke('val')
+      .invoke("val")
+      //check if it's a valid email
+      .should(
+        "match",
+        /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/i
+      );
+
+    cy.findByLabelText(/password/i).type(
+      `${fakeUser.password}{backspace}{backspace}`
+    );
+    cy.findByLabelText(/password/i)
+      .should("have.value", fakeUser.password.slice(0, -2))
+      .invoke("val")
+      .should("have.length", 10);
+  });
+```
+
+The test will type the `fakeUser` email and password and check if the value corresponds to valid values. It's important to notice that `should` is always referring the the subject, that is the reference for HTML node, to alter the subject value, you can use [invoke](https://docs.cypress.io/api/commands/invoke) to call functions and set its return to subject or [its](https://docs.cypress.io/api/commands/its) to access object properties.
+>[!TIP]
+> - `.invoke("val")` runs the function `val()` that returns input value, his equivalent for `its` is not `.its("val")` or `.its("value")` but `.its("0.value")`
+> - `cy.type` accepts some special characters such as `{backspace}`, `{arrowUp}`, and etc.
+
+## Testing HTTP Requests
+
+Cypress have a whole bunch of tools to handle HTTP requests, there's a complete course on how [Intercept HTTP requests on cypress documentation](https://learn.cypress.io/advanced-cypress-concepts/intercepting-network-requests)
+
+### Simulating Errors
+
+Intercepting HTTP Requests in cypress is pretty much simple, you can use [cy.intercept()](https://docs.cypress.io/api/commands/intercept) to spy, stub, modify your requests, and etc. To test this example, we will use the following page https://resttesttest.com/ that is an online tool that make HTTP requests, by default it suggests a GET to https://httpbin.org/get endpoint, lets use it. By default clicking on Ajax Request will show a Success status message ("HTTP 200 OK") followed by a simple JSON.
+
+![19-http_request_online_tool](19-http_request_online_tool.png)
+
+For this test, we will change the status code to 400 and show an object in body containing a simple message, the cypress test for that can be written as:
+```js
+describe("test http request", () => {
+  it("shows a correct message accoording to HTTP status", () => {
+    cy.visit("https://resttesttest.com/");
+    cy.get("#submitajax").click();
+
+    cy.get("#statuspre").should("have.text", "HTTP 200 OK");
+
+    cy.intercept("GET", "https://httpbin.org/get", {
+      statusCode: 400,
+      body: {
+        message: "Bad Request",
+      },
+    });
+    
+    cy.get("#submitajax").click();
+    cy.get("#statuspre").should("have.text", "HTTP 400 Bad Request");
+    cy.findByText('{"message":"Bad Request"}').should("exist");
+  });
+});
+```
+
+> [!TIP]
+> You can chain your intercept with an alias using [as (see docs)](https://docs.cypress.io/api/commands/as). e.g.: `cy.intercept(...).as('requestAlias')`, this can allow you to monitor the request afterwards
+> ```js
+>// `PUT` requests on the `/users` endpoint will be stubbed with
+>// the `user` fixture and be aliased as `editUser`
+>cy.intercept('PUT', '/users', { fixture: 'user' }).as('editUser')
+>// we'll assume submitting `form` triggers a matching request
+>cy.get('form').submit()
+>// once a response comes back from the `editUser`
+>// this `wait` will resolve with the subject containing `url`
+>cy.wait('@editUser').its('url').should('contain', 'users')
+>```
+
+ 
+### Making HTTP requests
+
+Sometimes it's quicker to just do simple requests instead of simulating the whole interaction with te page to build and dispatch the same request, specially if it is not exactly the responsibility of your testing, but a intermediate step to reach your test case. For that you can use [request](https://docs.cypress.io/api/commands/request)
+
+Request accept as one of the arguments, the URL, you can pass an absolute (also known as fully qualified domain name, FQDN) URL or a relative one, the second option will use as reference at first the URL used in a previous `cy.visit(...)`, otherwise your `baseUrl` defined in [[Testing JavaScript#Configuring cypress.config.js]]
+
+It also accepts the method (GET, POST, PATCH, DELETE, and etc) and the body of your request or some config options (like authorization, headers, encoding, and etc)
+
+>[!INFO]
+>The way you define the parameters can influence your implementation, be aware to the method overload of `request`, so the first parameter can be `url` or `method` for example
+>```js
+cy.request(url)
+cy.request(url, body)
+cy.request(method, url)
+cy.request(method, url, body)
+cy.request(options)
+>```
+
+So an example of implementation can be as follows:
+```js
+cy.request({
+  method: 'POST',
+  url: '/login_with_form', // baseUrl is prepend to URL
+  form: true, // indicates the body should be form urlencoded and sets Content-Type: application/x-www-form-urlencoded headers
+  body: {
+    username: 'jane.lane',
+    password: 'password123',
+  },
+})
+
+// to prove we have a session
+cy.getCookie('cypress-session-cookie').should('exist')
+```
+
+## Creating custom Cypress commands
+
+You can add custom commands by creating them on `cypress/support/commands.js` file, following this syntax
+
+```js
+Cypress.Commands.add('assertIsDisplayed', (path: string) => {
+    cy.get(path).should('be.visible');
+});
+```
+
+You can also overwrite an existing command by using `Cypress.Commands.overwrite`
+```js
+Cypress.Commands.overwrite(
+  'click',
+  (originalFn, subject, positionOrX, y, options = {}) => {
+    options.waitForAnimations = false
+    return originalFn(subject, positionOrX, y, options)
+  }
+)
+```
+
+Therefore you can simply use it in your tests:
+```js
+cy.assertIsDisplayed('#username-input')
+```
+
+>[!TYPESCRIPT]
+>To have advantage of intellisense that typescript provides, you must declare a `d.ts` file extending your types. `index.d.ts` files can be created on the `cypress/support` folder containing the following implementation:
+```ts
+/// <reference types="cypress" />
+
+declare namespace Cypress {
+  interface Chainable<Subject> {
+    /**
+     * Create several Todo items via UI
+     * @example
+     * cy.createDefaultTodos()
+     */
+    assertIsDisplayed(path: string): Chainable<unknown>;
+  }
+}
+```
+
+A more complex example can be:
+```js
+import {buildUser} from '../support/generate'
+
+Cypress.Commands.add('createUser', overrides => {
+  const user = buildUser(overrides)
+  cy.request({
+    url: 'http://localhost:3000/register',
+    method: 'POST',
+    body: user,
+  }).then(response => ({...response.body.user, ...user}))
+})
+```
+
+In the above example, it took `overrides` as arguments that can be passed to the function `buildUser` and yields the response back to `then` method. So the test implementation can make use of this custom command.
+```js
+describe('login', () => {
+  it('should login an existing user', () => {
+    cy.createUser().then(user => {
+      cy.visit('/')
+        .findByText(/login/i)
+        .click()
+        .findByLabelText(/username/i)
+        .type(user.username)
+        .findByLabelText(/password/i)
+        .type(user.password)
+        .findByText(/submit/i)
+        .click()
+        // now let's verify things are set after login.
+        .url()
+        .should('eq', `${Cypress.config().baseUrl}/`)
+        .window()
+        .its('localStorage.token')
+        .should('be.a', 'string')
+        .findByTestId('username-display')
+        .should('have.text', user.username)
+    })
+  })
+})
+```
+>[!TIP]
+>Check for several other suggestions on [Custom Commands documentation](https://docs.cypress.io/api/cypress-api/custom-commands)

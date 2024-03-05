@@ -11,11 +11,24 @@
             "id": "a846c92ec66782e2",
             "type": "leaf",
             "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2205cebd674662ab",
+            "type": "leaf",
+            "state": {
               "type": "empty",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,8 +82,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -90,6 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -106,6 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -127,7 +141,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Estudos/JavaScript/Test/Testing JavaScript.md"
+              }
             }
           }
         ],
@@ -135,7 +151,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 304.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -147,31 +164,35 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "a846c92ec66782e2",
+  "active": "2205cebd674662ab",
   "lastOpenFiles": [
-    "Estudos/Testing JavaScript.md",
+    "Estudos/JavaScript/Test/Testing JavaScript.md",
+    "Estudos/JavaScript/JavaScript.md",
+    "Estudos/JavaScript/Test",
+    "Estudos/JavaScript",
+    "Estudos/JavaScript/Test/img/19-http_request_online_tool.png",
+    "Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/19-http_request_online_tool.md",
+    "Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8",
     "Estudos/React Native/React Native Web.md",
     "README.md",
     "2024-02-25.md",
     "Estudos/React Native/React Native.md",
     "Estudos/React Native/Questões Entrevista.md",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/2-jest-styled-components-output.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/17-cypress_report.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/18-cypress_debug.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/16-cypress_spec_template.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/15-cypress_start_page.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/14-cypress_browser_selector.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/13-cypress_config_page.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/12-cypress_welcome_page.png",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/11-jest-output-toHaveAttribute.png",
-    "Estudos/JavaScript.md",
+    "Estudos/JavaScript/Test/img/2-jest-styled-components-output.png",
+    "Estudos/JavaScript/Test/img/17-cypress_report.png",
+    "Estudos/JavaScript/Test/img/18-cypress_debug.png",
+    "Estudos/JavaScript/Test/img/16-cypress_spec_template.png",
+    "Estudos/JavaScript/Test/img/15-cypress_start_page.png",
+    "Estudos/JavaScript/Test/img/14-cypress_browser_selector.png",
+    "Estudos/JavaScript/Test/img/13-cypress_config_page.png",
+    "Estudos/JavaScript/Test/img/12-cypress_welcome_page.png",
+    "Estudos/JavaScript/Test/img/11-jest-output-toHaveAttribute.png",
     "Estudos/React Native",
     "A.md",
     "Estudos/Testing.md",
     "Testing.md",
     "Render a React component for testing.md",
     "FavoriteNumber.md",
-    "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/10-jest-output-null-querySelector.png",
     "previous calculator display using styled-components.md",
     "Estudos/Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/Teste",
     "Estudos/Sem título.canvas"

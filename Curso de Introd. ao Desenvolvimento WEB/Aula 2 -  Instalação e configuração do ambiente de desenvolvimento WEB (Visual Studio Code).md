@@ -75,7 +75,7 @@ Clique em **Extensions** ou pressione as teclas `Ctrl+Shift+X` juntas para abrir
 Em seguida, no primeiro resultado **Portuguese (Brazil) Language Pack for Visual Studio Code** clique no botão à direita **Install**. em instantes um pop-up (tipo de aviso que surge na tela) aparecerá no canto inferior direito da tela solicitando alterar para o idioma que recém instalamos e reiniciar o VSCode, confirme clicando em **Change Language and Restart**. O editor irá reiniciar em português do brasil.
 
 > [!NOTE]
-> Você ainda poderá encontrar alguma parte do VSCode em inglês, que ainda não foi traduza
+> Você ainda poderá encontrar partes do VSCode em inglês, que ainda não foram traduzidas
 
 ## Primeiros passos
 
@@ -102,8 +102,8 @@ Essa é uma das funcionalidades do VSCode em relação aos editores de texto com
 
 Algumas das muitas outras podem ser conferidas no próprio site do VSCode (https://code.visualstudio.com/docs/languages/html, em inglês), mas podemos destacar:
 
-### IntelliSense
-À medida que você digita HTML, aparecem sugestões via a funcionalidade IntelliSense. Na imagem abaixo, você pode ver uma sugestão de fechamento de elemento HTML `</div>` bem como uma lista específica de contexto de elementos sugeridos
+### *IntelliSense*
+À medida que você digita HTML, aparecem sugestões via a funcionalidade *IntelliSense*. Na imagem abaixo, você pode ver uma sugestão de fechamento de elemento HTML `</div>` bem como uma lista específica de contexto de elementos sugeridos
 
 ![[10-vscode-intellisense.png]]
 
@@ -111,6 +111,6 @@ Algumas das muitas outras podem ser conferidas no próprio site do VSCode (https
 Os elementos da tag são fechados automaticamente quando `>` da tag de abertura é digitada.
 ![[11-vscode-autoclose-tags.png]]
 
-### Hover
+### *Hover*
 Mova o mouse sobre tags HTML ou estilos incorporados e JavaScript para obter mais informações sobre o símbolo sob o cursor.
 ![[12-vscode-hover.png]]

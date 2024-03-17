@@ -1,22 +1,44 @@
 {
-  "collapse-filter": true,
+  "collapse-filter": false,
   "search": "",
   "showTags": false,
   "showAttachments": false,
-  "hideUnresolved": false,
+  "hideUnresolved": true,
   "showOrphans": true,
   "collapse-color-groups": true,
-  "colorGroups": [],
-  "collapse-display": true,
+  "colorGroups": [
+    {
+      "query": "path:Estudos/JavaScript  ",
+      "color": {
+        "a": 1,
+        "rgb": 15915070
+      }
+    },
+    {
+      "query": "path:\"Estudos/React Native\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 4446969
+      }
+    },
+    {
+      "query": "path:\"Curso de Introd. ao Desenvolvimento WEB\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 15884852
+      }
+    }
+  ],
+  "collapse-display": false,
   "showArrow": false,
   "textFadeMultiplier": 0,
-  "nodeSizeMultiplier": 1,
-  "lineSizeMultiplier": 1,
-  "collapse-forces": true,
-  "centerStrength": 0.518713248970312,
-  "repelStrength": 10,
+  "nodeSizeMultiplier": 0.993229166666667,
+  "lineSizeMultiplier": 0.993229166666667,
+  "collapse-forces": false,
+  "centerStrength": 0.302083333333333,
+  "repelStrength": 8.02916666666667,
   "linkStrength": 1,
-  "linkDistance": 250,
+  "linkDistance": 120,
   "scale": 0.6666666666666666,
   "close": true
 }

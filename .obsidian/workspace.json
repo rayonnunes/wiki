@@ -4,34 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "80a5e1dcc87a3d7f",
+        "id": "a25d05c30efd2b73",
         "type": "tabs",
         "children": [
           {
-            "id": "a846c92ec66782e2",
+            "id": "6022634e76c8f353",
             "type": "leaf",
+            "pinned": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
+                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "2205cebd674662ab",
-            "type": "leaf",
-            "state": {
-              "type": "diff-view",
-              "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
-              }
+              },
+              "pinned": true
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -85,12 +75,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 371.5
+    "width": 293.5
   },
   "right": {
     "id": "b0560eb20716e1fd",
@@ -106,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
+                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Estudos/JavaScript/Test/Testing JavaScript.md",
+                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Estudos/JavaScript/Test/Testing JavaScript.md"
+                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md"
               }
             }
           }
@@ -168,29 +157,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2205cebd674662ab",
+  "active": "6022634e76c8f353",
   "lastOpenFiles": [
+    "Curso de Introd. ao Desenvolvimento WEB/img/12-vscode-hover.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/11-vscode-autoclose-tags.png",
+    "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
+    "Pasted image 20240317174449.png",
+    "Pasted image 20240317174440.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/10-vscode-intellisense.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/9-vscode-permission-modal.png",
+    "Pasted image 20240317173346.png",
+    "README.md",
+    "Curso de Introd. ao Desenvolvimento WEB/img/8-vscode-extensions-store.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/7-vscode-extensions-menu.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/6-vscode-welcome.png",
+    "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
+    "Estudos/React Native/React Native.md",
+    "React Native.md",
+    "Curso de Introd. ao Desenvolvimento WEB/img",
+    "Curso de Introd. ao Desenvolvimento WEB",
     "Estudos/JavaScript/Test/Testing JavaScript.md",
     "Estudos/JavaScript/JavaScript.md",
     "Estudos/JavaScript/Test",
     "Estudos/JavaScript",
-    "Estudos/JavaScript/Test/img/19-http_request_online_tool.png",
     "Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8/19-http_request_online_tool.md",
     "Testing JavaScript a47d046ff7444190bcb90e0a7d81b5f8",
     "Estudos/React Native/React Native Web.md",
-    "README.md",
     "2024-02-25.md",
     "Estudos/React Native/React Native.md",
     "Estudos/React Native/Questões Entrevista.md",
-    "Estudos/JavaScript/Test/img/2-jest-styled-components-output.png",
-    "Estudos/JavaScript/Test/img/17-cypress_report.png",
-    "Estudos/JavaScript/Test/img/18-cypress_debug.png",
-    "Estudos/JavaScript/Test/img/16-cypress_spec_template.png",
-    "Estudos/JavaScript/Test/img/15-cypress_start_page.png",
-    "Estudos/JavaScript/Test/img/14-cypress_browser_selector.png",
-    "Estudos/JavaScript/Test/img/13-cypress_config_page.png",
-    "Estudos/JavaScript/Test/img/12-cypress_welcome_page.png",
-    "Estudos/JavaScript/Test/img/11-jest-output-toHaveAttribute.png",
     "Estudos/React Native",
     "A.md",
     "Estudos/Testing.md",

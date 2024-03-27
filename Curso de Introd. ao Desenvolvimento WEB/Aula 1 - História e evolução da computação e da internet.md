@@ -53,14 +53,18 @@ A internet discada foi substituída nos anos 2000 pela internet de banda-larga q
 3. [Máquina de Pascal - Universidade de Lisboa](https://webpages.ciencias.ulisboa.pt/~ommartins/seminario/pasca_l/maquinadepascal.htm)
 4. [A EVOLUÇÃO DOS COMPUTADORES - UFF](http://profs.ic.uff.br/~aconci/evolucao.html)
 5. [Primeiro e-mail era enviado há 50 anos; conheça a história do correio eletrônico - Canaltech](https://canaltech.com.br/internet/primeiro-e-mail-da-historia-200381/)
-6. [A História do Primeiro Site da Internet - Hostinger](https://www.hostinger.com.br/blog/a-historia-do-primeiro-site-do-mundo/)
-7. [A História da Internet e Suas Tecnologias – Da Guerra Fria a 2023 - Hostinger](https://www.hostinger.com.br/tutoriais/a-historia-da-internet)
+6. [Quem inventou a internet? E por que?](https://www.youtube.com/watch?v=21eFwbb48sE)
+7. [A História do Primeiro Site da Internet - Hostinger](https://www.hostinger.com.br/blog/a-historia-do-primeiro-site-do-mundo/)
+8. [A História da Internet e Suas Tecnologias – Da Guerra Fria a 2023 - Hostinger](https://www.hostinger.com.br/tutoriais/a-historia-da-internet)
+9. [O que é um navegador web?](https://www.mozilla.org/pt-BR/firefox/browsers/what-is-a-browser/)
 # Exercícios
 1. Descreva as suas experiências com Computadores e a Internet. Em que ano você teve contato com essas tecnologias? Como você utilizava essas ferramentas na época e como utiliza hoje?
 2. Qual a importância da matemática e do cálculo nos dias de hoje?
 3. Em que ano surgiu a primeira calculadora e quem inventou?
 4. Em que ano surgiu o primeiro computador eletrônico e quem inventou?
-5. O que é a WEB?
+5. O que é a web?
+6. No contexto da web, o que significa **cliente** e **servidor**
+7. O que você entende por navegador web (ou *browser*)?
 # Bibliografia
 
 1. Paul E. Ceruzzi. 2003. A History of Modern Computing (2nd. ed.). MIT Press, Cambridge, MA, USA.

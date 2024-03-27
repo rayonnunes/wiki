@@ -5,6 +5,8 @@ Durante esta aula, iremos abordar passo a passo a instalação do Visual Studio 
 # Como é uma página HTML?
 Antes de instalarmos as nossas ferramentas, vamos avançar um pouco e observar um exemplo da estrutura básica de uma página web, escrita em HTML, para que fique claro onde queremos chegar. 
 
+## Windows
+## Linux
 No Ubuntu o editor de textos que vem instalado padrão é o **gedit**. Abra o programa e digite o seguinte código:
 
 ```
@@ -41,6 +43,8 @@ E parabéns, com isso temos um exemplo funcional de um site (ou página web) fun
 O Google Chrome é um [[Aula 1 - História e evolução da computação e da internet#Origem da WEB e Navegadores|navegador]] de internet desenvolvido pela Google, lançado em 2008, para o Windows, e mais tarde foi portado para Linux, Mac, iOS e Android. Normalmente, cada sistema operacional já possui um navegador pré-instalado por padrão, o Windows possui o Microsoft Edge, o Linux o Mozilla Firefox, e o Safari para Mac. Porém adotaremos o Google Chrome pois este possui os mais avançados recursos da web e é o navegador mais popular da atualidade.
 
 ## Instalação
+
+### Linux
 Caso o seu computador já não possua o Google Chrome instalado, você deve baixá-lo através do site: https://www.google.com/chrome e clicar em "Faça o download aqui."
 ![[2-google-chrome-page.png]]
 No Linux, uma tela aparecerá para que você selecione o formato do arquivo adequado para a sua distribuição, no caso do Ubuntu, selecione a opção **64 bits .deb (para Debian/Ubuntu)** e em seguida clique em **Aceitar e instalar**.
@@ -52,6 +56,8 @@ Um arquivo começará a ser baixado para o seu computador e após finalizar, abr
 O Visual Studio Code (abreviado como VSCode) é um editor de texto/código-fonte desenvolvido pela Microsoft para Windows, Linux e macOS. Ele inclui suporte para depuração, controle de versionamento Git incorporado, realce de sintaxe, complementação inteligente de código. Exploraremos muitas das funcionalidades deste editor ao longo do curso.
 
 ## Instalação
+
+### Linux
 A instalação é muito parecida com o [[Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code)#Google Chrome|Google Chrome]], basta acessar https://code.visualstudio.com/ e novamente escolher a versão compatível a distribuição, neste caso clicando em **.deb**.
 
 ![[5-vscode-page.png]]

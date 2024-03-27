@@ -20,6 +20,18 @@
               },
               "pinned": true
             }
+          },
+          {
+            "id": "1ceeabf740291387",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -75,12 +87,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 221.5
   },
   "right": {
     "id": "b0560eb20716e1fd",
@@ -160,8 +171,9 @@
   },
   "active": "6022634e76c8f353",
   "lastOpenFiles": [
-    "README.md",
+    "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
     "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
+    "README.md",
     "Curso de Introd. ao Desenvolvimento WEB/img/12-vscode-hover.png",
     "Curso de Introd. ao Desenvolvimento WEB/img/11-vscode-autoclose-tags.png",
     "Pasted image 20240317174449.png",
@@ -172,7 +184,6 @@
     "Curso de Introd. ao Desenvolvimento WEB/img/8-vscode-extensions-store.png",
     "Curso de Introd. ao Desenvolvimento WEB/img/7-vscode-extensions-menu.png",
     "Curso de Introd. ao Desenvolvimento WEB/img/6-vscode-welcome.png",
-    "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
     "Estudos/React Native/React Native.md",
     "React Native.md",
     "Curso de Introd. ao Desenvolvimento WEB/img",

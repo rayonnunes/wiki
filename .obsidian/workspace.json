@@ -20,18 +20,6 @@
               },
               "pinned": true
             }
-          },
-          {
-            "id": "1ceeabf740291387",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ]
       }
@@ -171,19 +159,19 @@
   },
   "active": "6022634e76c8f353",
   "lastOpenFiles": [
-    "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
+    "Curso de Introd. ao Desenvolvimento WEB/img/5-vscode-page.png",
     "Curso de Introd. ao Desenvolvimento WEB/Aula 2 -  Instalação e configuração do ambiente de desenvolvimento WEB (Visual Studio Code).md",
-    "README.md",
-    "Curso de Introd. ao Desenvolvimento WEB/img/12-vscode-hover.png",
-    "Curso de Introd. ao Desenvolvimento WEB/img/11-vscode-autoclose-tags.png",
-    "Pasted image 20240317174449.png",
-    "Pasted image 20240317174440.png",
-    "Curso de Introd. ao Desenvolvimento WEB/img/10-vscode-intellisense.png",
-    "Curso de Introd. ao Desenvolvimento WEB/img/9-vscode-permission-modal.png",
-    "Pasted image 20240317173346.png",
-    "Curso de Introd. ao Desenvolvimento WEB/img/8-vscode-extensions-store.png",
-    "Curso de Introd. ao Desenvolvimento WEB/img/7-vscode-extensions-menu.png",
     "Curso de Introd. ao Desenvolvimento WEB/img/6-vscode-welcome.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/6-vscode-welcome.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/4-google-chrome-install.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/4-google-chrome-prompt-windows.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/3-google-chrome-page 1.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/3-google-chrome-distro.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/3-google-chrome-page.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/2-meu-site.png",
+    "Curso de Introd. ao Desenvolvimento WEB/img/1-salvar-html.png",
+    "Curso de Introd. ao Desenvolvimento WEB/Aula 1 - História e evolução da computação e da internet.md",
+    "README.md",
     "Estudos/React Native/React Native.md",
     "React Native.md",
     "Curso de Introd. ao Desenvolvimento WEB/img",
